@@ -19,9 +19,22 @@
     <h6>Hello</h6>
     <h7>Hello</h7>
 
-<p>Checking <span style="color:blue;font-weight:bold">span</span> tag <span style="color:darkolivegreen;font-weight:bold">in HTML</span> with colours.</p>
+<p>Checking <span style="color:blue;font-weight:bold">span</span> tag <span style="color:darkolivegreen;font-weight:bold">in HTML</span> with colours and different font size.</p>
 
-<table
+<h3>Different types of bullets</h3>
+<ul TYPE="square">
+    <li>List Item 1
+    <li>List Item 2
+    <li>List Item 3
+    </ul>
+
+    <ul style="list-style-type:disc;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+
+<table>
     <tr>
         <th>row1 </th>
         <th>row2</th>
@@ -54,5 +67,37 @@
 <h2>HTML Image</h2>
 <img src="C:\Users\biyanis\Desktop\Ash.jfif" alt="Ash">
 
+<h3>Radio button</h3>
+
+<p>Please select your gender:</p>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+
+  <br>  
+
+  <p>Please select your age:</p>
+  <input type="radio" id="age1" name="age" value="30">
+  <label for="age1">0 - 30</label><br>
+  <input type="radio" id="age2" name="age" value="60">
+  <label for="age2">31 - 60</label><br>  
+  <input type="radio" id="age3" name="age" value="100">
+  <label for="age3">61 - 100</label><br><br>
+  
+  <h3>Drop-down</h3>
+<form>
+    
+    <label for="cars">Sports car:</label>   
+    <select name="cars" id="cars">
+        <option value="">Select a car</option>  
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="opel">Opel</option>
+      <option value="audi">Audi</option>
+    </select>
+</form>
 </body>
 </html>
